@@ -1,0 +1,27 @@
+{
+  "Cobertura/SummaryGithub.html": {
+    "href": "Cobertura/SummaryGithub.html",
+    "title": "Summary | BankDomain App",
+    "summary": "Summary Summary Generated on: 05/22/2025 - 05:01:03 Coverage date: 05/22/2025 - 05:01:00 Parser: Cobertura Assemblies: 1 Classes: 1 Files: 1 Line coverage: 90% (18 of 20) Covered lines: 18 Uncovered lines: 2 Coverable lines: 20 Total lines: 54 Branch coverage: 100% (6 of 6) Covered branches: 6 Total branches: 6 Method coverage: Feature is only available for sponsors Coverage Bank.Domain - 90% Name Line Branch Bank.Domain 90% 100% BankAccount 90% 100%"
+  },
+  "clases.html": {
+    "href": "clases.html",
+    "title": "| BankDomain App",
+    "summary": "classDiagram class BankAccount BankAccount : +String CustomerName BankAccount : +Double Balance BankAccount : +Debit() Void BankAccount : +Credit() Void"
+  },
+  "docs/Bank.Domain.Tests.BankAccountTests.html": {
+    "href": "docs/Bank.Domain.Tests.BankAccountTests.html",
+    "title": "Class BankAccountTests | BankDomain App",
+    "summary": "Class BankAccountTests Namespace Bank.Domain.Tests Assembly Bank.Domain.Tests.dll public class BankAccountTests Inheritance object BankAccountTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Credit_NegativeAmount_ThrowsArgumentOutOfRangeException() [Fact] public void Credit_NegativeAmount_ThrowsArgumentOutOfRangeException() Credit_WithValidAmount_UpdatesBalance() [Fact] public void Credit_WithValidAmount_UpdatesBalance() Credit_ZeroAmount_AddsNothing() [Fact] public void Credit_ZeroAmount_AddsNothing() Debit_AmountEqualsBalance_AllowsDebit() [Fact] public void Debit_AmountEqualsBalance_AllowsDebit() Debit_AmountExceedsBalance_ThrowsArgumentOutOfRangeException() [Fact] public void Debit_AmountExceedsBalance_ThrowsArgumentOutOfRangeException() Debit_AmountIsNegative_ThrowsArgumentOutOfRangeException() [Fact] public void Debit_AmountIsNegative_ThrowsArgumentOutOfRangeException() Debit_AmountIsZero_AllowsDebit() [Fact] public void Debit_AmountIsZero_AllowsDebit() Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange() [Fact] public void Debit_WhenAmountIsLessThanZero_ShouldThrowArgumentOutOfRange() Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange() [Fact] public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange() MultiDebit_WithValidAmount_UpdatesBalance(double, double, double) [Theory] [InlineData(new object[] { 11.99, 4.55, 7.44 })] [InlineData(new object[] { 12.3, 5.2, 7.1 })] public void MultiDebit_WithValidAmount_UpdatesBalance(double beginningBalance, double debitAmount, double expected) Parameters beginningBalance double debitAmount double expected double"
+  },
+  "docs/Bank.Domain.Tests.html": {
+    "href": "docs/Bank.Domain.Tests.html",
+    "title": "Namespace Bank.Domain.Tests | BankDomain App",
+    "summary": "Namespace Bank.Domain.Tests Classes BankAccountTests"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | BankDomain App",
+    "summary": "This is the HOMEPAGE. Reporte Cobertura HTML Reporte Cobertura Markdown Reporte de Mutaciones Diagrama de Clases"
+  }
+}
