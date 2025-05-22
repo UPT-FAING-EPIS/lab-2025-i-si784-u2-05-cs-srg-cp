@@ -1,4 +1,4 @@
-name: Actividad - 3 | Generar Documentacion con DocFx y Publicar 
+name: Actividad - 2 | Generar Documentacion con DocFx y Publicar 
 env:
   DOTNET_VERSION: '8.0' # la versión de .NET
   DOTNET_VERSION_TOOL: '6.0' # la versión de .NET para agregar compatibilidad con .NET 6
