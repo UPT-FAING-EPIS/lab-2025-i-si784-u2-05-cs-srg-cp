@@ -69,7 +69,9 @@ jobs:
                 ],
                 "exclude": [
                   "_site/**",
-                  "Cobertura/index.html"
+                  "Cobertura/index.html",
+                  "Stryker/mutation-report.html",
+                  "docs/Bank.Domain.html"
                 ]
               }
             ],
@@ -86,8 +88,8 @@ jobs:
               "modern"
             ],
             "globalMetadata": {
-              "_appName": "BankDomain.App",
-              "_appTitle": "BankDomain App",
+              "_appName": "Bank.App",
+              "_appTitle": "Bank App",
               "_enableSearch": true,
               "pdf": true
             }
@@ -117,9 +119,9 @@ jobs:
         
         ## [Reporte de Mutaciones](Stryker/mutation-report.html)
 
+        ## [Documentacion de Clases, atributos y métodos](docs/Bank.Domain.html)
+
         ## [Diagrama de Clases](clases.md)
-
-
         EOF
     - name: Generar documentación
       run: |
