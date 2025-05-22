@@ -2,12 +2,17 @@
   "Cobertura/SummaryGithub.html": {
     "href": "Cobertura/SummaryGithub.html",
     "title": "Summary | Bank App",
-    "summary": "Summary Summary Generated on: 05/22/2025 - 05:37:06 Coverage date: 05/22/2025 - 05:37:04 Parser: Cobertura Assemblies: 1 Classes: 1 Files: 1 Line coverage: 90.4% (19 of 21) Covered lines: 19 Uncovered lines: 2 Coverable lines: 21 Total lines: 69 Branch coverage: 100% (6 of 6) Covered branches: 6 Total branches: 6 Method coverage: Feature is only available for sponsors Coverage Bank.Domain - 90.4% Name Line Branch Bank.Domain 90.4% 100% BankAccount 90.4% 100%"
+    "summary": "Summary Summary Generated on: 05/22/2025 - 05:40:32 Coverage date: 05/22/2025 - 05:40:30 Parser: Cobertura Assemblies: 1 Classes: 1 Files: 1 Line coverage: 90.4% (19 of 21) Covered lines: 19 Uncovered lines: 2 Coverable lines: 21 Total lines: 72 Branch coverage: 100% (6 of 6) Covered branches: 6 Total branches: 6 Method coverage: Feature is only available for sponsors Coverage Bank.Domain - 90.4% Name Line Branch Bank.Domain 90.4% 100% Bank.Domain.BankAccount 90.4% 100%"
   },
   "clases.html": {
     "href": "clases.html",
     "title": "| Bank App",
     "summary": "classDiagram class BankAccount BankAccount : +String CustomerName BankAccount : +Double Balance BankAccount : +Debit() Void BankAccount : +Credit() Void"
+  },
+  "docs/Bank.Domain.BankAccount.html": {
+    "href": "docs/Bank.Domain.BankAccount.html",
+    "title": "Class BankAccount | Bank App",
+    "summary": "Class BankAccount Namespace Bank.Domain Assembly Bank.Domain.dll Representa una cuenta bancaria con operaciones de débito y crédito. public class BankAccount Inheritance object BankAccount Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors BankAccount(string, double) Inicializa una nueva instancia de BankAccount. public BankAccount(string customerName, double balance) Parameters customerName string balance double Fields CreditAmountLessThanOrEqualToZeroMessage Mensaje para cuando el monto del crédito es menor a cero. public const string CreditAmountLessThanOrEqualToZeroMessage = \"Credit amount must be positive\" Field Value string DebitAmountExceedsBalanceMessage Mensaje para cuando el monto a debitar excede el saldo. public const string DebitAmountExceedsBalanceMessage = \"Debit amount exceeds balance\" Field Value string DebitAmountLessThanZeroMessage Mensaje para cuando el monto a debitar es menor a cero. public const string DebitAmountLessThanZeroMessage = \"Debit amount is less than zero\" Field Value string Properties Balance Obtiene el saldo actual. public double Balance { get; } Property Value double CustomerName Obtiene el nombre del cliente. public string CustomerName { get; } Property Value string Methods Credit(double) Acredita una cantidad a la cuenta. public void Credit(double amount) Parameters amount double Debit(double) Debita una cantidad de la cuenta. public void Debit(double amount) Parameters amount double"
   },
   "docs/Bank.Domain.Tests.BankAccountTests.html": {
     "href": "docs/Bank.Domain.Tests.BankAccountTests.html",
@@ -18,6 +23,11 @@
     "href": "docs/Bank.Domain.Tests.html",
     "title": "Namespace Bank.Domain.Tests | Bank App",
     "summary": "Namespace Bank.Domain.Tests Classes BankAccountTests"
+  },
+  "docs/Bank.Domain.html": {
+    "href": "docs/Bank.Domain.html",
+    "title": "Namespace Bank.Domain | Bank App",
+    "summary": "Namespace Bank.Domain Classes BankAccount Representa una cuenta bancaria con operaciones de débito y crédito."
   },
   "index.html": {
     "href": "index.html",

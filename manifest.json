@@ -32,6 +32,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.Domain.BankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.Domain.BankAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Domain.BankAccount",
+      "Summary": "<p sourcefile=\"docs/Bank.Domain.BankAccount.yml\" sourcestartlinenumber=\"1\">Representa una cuenta bancaria con operaciones de débito y crédito.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "docs/Bank.Domain.Tests.BankAccountTests.yml",
       "output": {
         ".html": {
@@ -56,6 +70,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Bank.Domain.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Bank.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Bank.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Domain",
       "Summary": null
     },
     {
